@@ -17,5 +17,7 @@ class BankAccount
   end
   
   def valid?
-    ba
+    balance > 0 && staus== "open"
+  end
+  
 end
