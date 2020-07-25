@@ -5,7 +5,7 @@ class Transfer
   def initialize(transfer_amount)
     @sender = sender
     @receiver = receiver
-    @status ='pending'
+    @status ="pending"
   end
   
   def valid?
